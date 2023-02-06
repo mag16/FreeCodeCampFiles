@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Responsive Web Design - Forms</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <h1 id="title">Hello Forms!</h1>
+        
+        <p id="description">Build a Survey Form</p>
+        <form id="survey-form">
+        <label for="name">Enter your name: <input id="name" type="text" required /></label>
+        <label for="email">Enter your email: <input id="email" type="text" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
+                required /></label>
+        <label for="number">enter age: <input id="number" type="number" pattern="[0-9]" min="12" max="55" /></label>
+        
+        </form>
+
+
+    </body>
+</html>
