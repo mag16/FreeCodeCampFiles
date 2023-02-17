@@ -7,7 +7,7 @@ html {
 }
 
 body {
-    font-family: "Open Sans",sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .label {
@@ -23,28 +23,33 @@ header h1 {
     letter-spacing: 0.15px
 }
 
-.divider{
-        border-bottom: 1px solid #888989;
-        margin: 2px 0;
-}
-
-.bold {
-    font-weight: 800;
-}
-
 p {
     margin: 0;
     display: flex;
     justify-content: space-between;
 }
 
+.divider {
+    border-bottom: 1px solid #888989;
+    margin: 2px 0;
+}
+
+.bold {
+    font-weight: 800;
+}
+
 .large {
     height: 10px;
 }
 
-.large, .medium {
+.large,
+.medium {
     background-color: black;
     border: 0;
+}
+
+.medium {
+    height: 5px;
 }
 
 .small-text {
@@ -62,12 +67,25 @@ p {
 }
 
 .left-container p {
-margin: -5px -2px;
-font-size: 2em;
-font-weight: 700;
+    margin: -5px -2px;
+    font-size: 2em;
+    font-weight: 700;
 }
 
 .calories-info span {
+    margin: -7px -2px;
     font-size: 2.4em;
     font-weight: 700;
+}
+
+.right {
+    justify-content: flex-end;
+}
+
+.indent {
+    margin-left: 1em;
+}
+
+.daily-value p {
+    border-bottom: 1px solid #888989;
 }
