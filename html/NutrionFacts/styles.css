@@ -25,9 +25,9 @@ header h1 {
 
 .divider{
         border-bottom: 1px solid #888989;
-        margin: 2px 2px;
-        letter-spacing: 0.15px;
+        margin: 2px 0;
 }
+
 .bold {
     font-weight: 800;
 }
@@ -45,4 +45,29 @@ p {
 .large, .medium {
     background-color: black;
     border: 0;
+}
+
+.small-text {
+    font-size: 0.85rem;
+}
+
+.calories-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.calories-info h2 {
+    margin: 0;
+}
+
+.left-container p {
+margin: -5px -2px;
+font-size: 2em;
+font-weight: 700;
+}
+
+.calories-info span {
+    font-size: 2.4em;
+    font-weight: 700;
 }
