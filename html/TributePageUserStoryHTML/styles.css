@@ -1,0 +1,31 @@
+* {
+    background: #DCDCDC;
+}
+
+#title {
+    text-align: center;
+}
+
+
+img {
+    max-width: 100%;
+    display: block;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#img-caption {
+    font-style: italic;
+    margin-top: 5px;
+    text-align: center;
+}
+
+#tribute-info p {
+    text-align: center;
+}
+
+#quote {
+    text-align: center;
+    font-style: italic;
+}
